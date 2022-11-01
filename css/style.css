@@ -1,0 +1,207 @@
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    background-color: #1473E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 264px;
+}
+li{
+    font-size: 1.8rem;
+    margin-left: 40px;
+    color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif; 
+}
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    cursor: pointer;
+    color: #a5a5a5;
+}
+nav ul{
+    display: flex;
+    width: 765px;
+}
+.logo{
+    padding-right: 500px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+#searchbar{
+   width: 18rem;
+   height: 2rem;
+   margin-top: 40px;
+   margin-right: 81px;
+   border: none;
+   background-color: #1473E6;
+}
+#searchbar:focus{
+    outline: none;
+}
+.line{
+    width: 18rem;
+}
+.section_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 788px;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.outersignup{
+    width: 584px;
+    height: 626px;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(236, 236, 236) 35%, rgb(214, 214, 214) 100%);
+    margin-left: 900px;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hone{
+    margin: 42px 220px 538px 78px;
+    color: #333333;
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif; 
+    
+}
+.pone{
+    position: absolute;
+    margin-bottom: 420px;
+    margin-right: 140px;
+    font-size: 0.75rem;
+    color: #747474;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.labelmail{
+    position: absolute;
+    font-size: 1rem;
+    padding-bottom: 355px;
+    padding-right: 340px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+#mail{
+    position: absolute;
+    width: 261px;
+    height: 35px;
+    margin-bottom: 300px;
+    margin-right: 130px;
+    border-radius: 5px;
+    border-color: #707070;
+}
+.labelusername{
+    position: absolute;
+    font-size: 1rem;
+    padding-bottom: 200px;
+    padding-right: 315px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+#username{
+    position: absolute;
+    width: 261px;
+    height: 35px;
+    margin-bottom: 145px;
+    margin-right: 130px;
+    border-radius: 5px;
+    border-color: #707070;
+}
+.labelpassword{
+    position: absolute;
+    font-size: 1rem;
+    padding-bottom: 40px;
+    padding-right: 265px;
+    font-family: 'Ubuntu', sans-serif; 
+}
+#password{
+    position: absolute;
+    width: 261px;
+    height: 35px;
+    margin-top: 15px;
+    margin-right: 130px;
+    border-radius: 5px;
+    border-color: #707070;
+}
+.ptwo{
+    position: absolute;
+    margin-top: 300px;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 410px;
+    color: #747474;
+}
+.btn1{
+    position: absolute;
+    margin-top: 450px;
+    margin-right: 50px;
+    width: 360px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #1473E6;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.section_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 807px;
+    background: linear-gradient(90deg, rgb(253, 181, 27) 0%, rgb(255, 174, 0) 35%, rgb(221, 162, 0) 100%);
+}
+.hthree{
+    font-size: 4rem;
+    margin-bottom: 420px;
+}
+#yourname{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+}
+#number{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    margin-left: 420px;
+    margin-bottom: 100px;
+}
+#description{
+    position: absolute;
+    width: 800px;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 40px;
+    resize: none;
+}
+#btn2{
+    position: absolute;
+    margin-top: 700px;
+    width: 360px;
+    height: 60px;
+    border-radius: 6px;
+    background-color: #747474;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+#btn2:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
