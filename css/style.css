@@ -41,6 +41,9 @@ nav ul{
    margin-right: 81px;
    border: none;
    background-color: #1473E6;
+   background-image: url("../images/searchicon.png");
+   background-repeat: no-repeat;
+   background-position: right;
 }
 #searchbar:focus{
     outline: none;
